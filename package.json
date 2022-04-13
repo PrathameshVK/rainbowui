@@ -1,0 +1,26 @@
+{
+  "name": "rainbowui",
+  "version": "0.0.1",
+  "description": "React component library",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "author": "Prathamesh_Kulkarni",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.3",
+    "@rollup/plugin-node-resolve": "^13.2.0",
+    "@rollup/plugin-typescript": "^8.3.1",
+    "@types/react": "^18.0.3",
+    "react": "^18.0.0",
+    "rollup": "^2.70.1",
+    "rollup-plugin-dts": "^4.2.1",
+    "typescript": "^4.6.3"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}
